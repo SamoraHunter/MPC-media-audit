@@ -1,5 +1,9 @@
 # MPC-media-audit
 Semi automated media curation, windows media player classic. Python, selenium, Windows media player classic.
+
+Python, selenium, chromedriver, pyWMI, media player classic. 
+
+
 MPC Python:
 Running this with media player class open and a playlist loaded will skip through the media files, the start, 25% 50% 75% and ending. User can set delete hotkeys or mark for deletion with Hotkey listener. Used to audit large collections of media, media file positions to sample can be adjusted, changing the volume to zero increases the skipping speed to maximum, increasing volume to maximum halts automated skipping. Adjusting media seeking manually also halts skipping until seek is at the start of the file. Requires selenium, python, chromedriver, media player classic with a playlist already playing media. Tip: use hardlinks to create super directory then load all files from super directory with mpcs open folder. *See also addtional MPC playlist builder to sort by accessed and size by this author. 
 
